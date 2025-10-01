@@ -1,6 +1,6 @@
 all: atlas-2025-06-04_1.bmp atlas-2025-06-04_1.png atlas-2025-06-04_1.txt
 atlas-2025-06-04_1.bmp: atlas-2025-06-04_1.png
-	convert -size 63x65 'xc:#ff00ff' '(' $< ')' -compose Over -composite $@
+	convert -size 511x199 'xc:#ff00ff' '(' $< ')' -compose Over -composite $@
 atlas-2025-06-04_1.png:
 	wget https://raw.githubusercontent.com/fccm2/darkblue-scifi-rts-2024-04-07/refs/heads/result/atlas-2025-06-04_1.png
 atlas-2025-06-04_1.txt:
