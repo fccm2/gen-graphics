@@ -1,3 +1,7 @@
 To the extent permitted by law, you can use, study, modify, and redistribute
 these atlas loaders with any spdx license, and/or with any license approuved
 by the fsf.
+
+Conditions for these graphics should be downloaded at the same time in the
+.txt files.
+
