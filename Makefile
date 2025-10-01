@@ -5,6 +5,7 @@ all:
 	$(MAKE) -C src -f spaceships-2024-04-02.mk all
 	$(MAKE) -C src -f atlas-2025-06-13_1.mk all
 	$(MAKE) -C src -f spaceships-drawn.mk all
+	$(MAKE) -C src -f space-colony-sim.mk all
 clean:
 	$(MAKE) -C src -f darkblue-scifi-rts-2024-08-01.mk clean
 	$(MAKE) -C src -f darkblue-scifi-rts-2024-04-07.mk clean
@@ -12,3 +13,4 @@ clean:
 	$(MAKE) -C src -f spaceships-2024-04-02.mk clean
 	$(MAKE) -C src -f atlas-2025-06-13_1.mk clean
 	$(MAKE) -C src -f spaceships-drawn.mk clean
+	$(MAKE) -C src -f space-colony-sim.mk clean
